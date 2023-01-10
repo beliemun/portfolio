@@ -7,19 +7,19 @@ const WorkExperience: React.FC<{ id?: string }> = ({ id }) => {
   const { t } = useTranslation();
   const { size, ref } = useGetHTMLDivSize();
   return (
-    <div id={id} className="py-4 pr-4">
-      <h2 className="text-custom-h2 inline border-b-[3px] border-custom-second">
+    <div id={id} className="py-4 pr-2 md:pr-4">
+      <h2 className="text-lg font-bold md:text-2xl my-2 inline border-b-[3px] border-custom-second">
         {t("Work Experience")}
         {t("Project")}
       </h2>
       <ul>
-        <li className="list-none font-bold text-lg mt-6">{t("work1")}</li>
+        <li className="list-none font-bold md:text-lg mt-6">{t("work1")}</li>
         <ul>
           <li>{t("work2")}</li>
           <li>{t("work3")}</li>
           <li>{t("work4")}</li>
         </ul>
-        <li className="list-none font-bold text-lg mt-6">{t("work5")}</li>
+        <li className="list-none font-bold md:text-lg mt-6">{t("work5")}</li>
         <ul>
           <AppInfo
             title={t("Macaron")}
@@ -41,13 +41,13 @@ const WorkExperience: React.FC<{ id?: string }> = ({ id }) => {
             </p>
           </li>
         </ul>
-        <li className="list-none font-bold text-lg mt-6">{t("work12")}</li>
+        <li className="list-none font-bold md:text-lg mt-6">{t("work12")}</li>
         <ul>
           <li>{t("work13")}</li>
           <li> {t("work14")}</li>
           <li> {t("work15")}</li>
         </ul>
-        <li className="list-none font-bold text-lg mt-6">{t("work16")}</li>
+        <li className="list-none font-bold md:text-lg mt-6">{t("work16")}</li>
 
         <ul>
           <AppInfo

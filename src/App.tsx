@@ -40,7 +40,7 @@ const App = () => {
         element={
           <div className="flex-center">
             <div className="flex felx-row h-full w-full max-w-6xl">
-              <div className="fixed flex-center w-60 p-4">
+              <div className="fixed flex-center w-32 md:w-48 lg:w-60 p-2 lg:p-4">
                 <Avatar onClick={handleClickAvatar} />
                 <MenuButton
                   text={t("Introduction")}
@@ -64,17 +64,17 @@ const App = () => {
                 />
                 <LanguageButton setLanguage={setLanguage} />
               </div>
-              <div className="flex flex-col w-full h-100 ml-60 pt-4">
+              <div className="flex flex-col w-full h-100 ml-32 md:ml-48 lg:ml-60 pt-2 lg:pt-4">
                 <Title />
-                <Separator className="my-4" />
+                <Separator className="my-4 hidden lg:block" />
                 <Introduction id="introduction" />
-                <Separator className="my-4" />
+                <Separator className="my-1 md:my-4" />
                 <Skills id="skills" />
-                <Separator className="my-4" />
+                <Separator className="my-1 md:my-4" />
                 <Contact id="contact" />
-                <Separator className="my-4" />
+                <Separator className="my-1 md:my-4" />
                 <WorkExperience id="work-experience" />
-                <Separator className="my-4" />
+                <Separator className="my-1 md:my-4" />
                 <PersonalExperience id="personal-experience" />
               </div>
             </div>

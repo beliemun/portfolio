@@ -9,12 +9,14 @@ const PersonalExperience: React.FC<{ id?: string }> = ({ id }) => {
   };
   return (
     <div id={id} className="py-4 pr-4">
-      <h2 className="text-custom-h2 inline border-b-[3px] border-custom-second">
+      <h2 className="text-lg font-bold md:text-2xl my-2 inline border-b-[3px] border-custom-second">
         {t("Personal Experience")}
         {t("Project")}
       </h2>
       <ul>
-        <li className="list-none font-bold text-lg mt-8">{t("personal1")}</li>
+        <li className="list-none font-bold md:text-lg mt-8">
+          {t("personal1")}
+        </li>
         <ul>
           <li>
             {t("personal2")}
@@ -57,7 +59,9 @@ const PersonalExperience: React.FC<{ id?: string }> = ({ id }) => {
             </span>
           </li>
         </ul>
-        <li className="list-none font-bold text-lg mt-8">{t("personal8")}</li>
+        <li className="list-none font-bold md:text-lg mt-8">
+          {t("personal8")}
+        </li>
         <ul>
           <AppInfo
             title={t("Kimxy")}
@@ -96,7 +100,9 @@ const PersonalExperience: React.FC<{ id?: string }> = ({ id }) => {
             </span>
           </li>
         </ul>
-        <li className="list-none font-bold text-lg mt-8">{t("personal15")}</li>
+        <li className="list-none font-bold md:text-lg mt-8">
+          {t("personal15")}
+        </li>
         <ul>
           <li className="list-none p-4 border border-custom-main/10 rounded-lg mb-4">
             <h3>{t("Design")}</h3>

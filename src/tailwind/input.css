@@ -19,11 +19,11 @@ p {
 }
 
 ul {
-  @apply list-disc ml-8;
+  @apply list-disc ml-4 md:ml-8;
 }
 
 li {
-  @apply mb-2;
+  @apply mb-2 text-sm md:text-base;
 }
 
 .center-screen {
@@ -64,14 +64,6 @@ li {
 
 .input {
   @apply text-sm md:text-base px-3 md:px-4 py-2 md:py-3 rounded-lg ring-1 ring-custom-shadow placeholder:text-custom-shadow placeholder:text-xs md:placeholder:text-base focus:ring-custom-second focus:ring-2;
-}
-
-.text-custom-h1 {
-  @apply text-xl md:text-3xl font-bold my-3;
-}
-
-.text-custom-h2 {
-  @apply text-lg md:text-2xl my-2;
 }
 
 .max-w-2xs {

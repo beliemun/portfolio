@@ -8,7 +8,7 @@ const Contact: React.FC<{ id?: string }> = ({ id }) => {
   };
   return (
     <div id={id} className="py-4 pr-4">
-      <h2 className="text-custom-h2 inline border-b-[3px] border-custom-second">
+      <h2 className="text-lg font-bold md:text-2xl my-2 inline border-b-[3px] border-custom-second">
         {t("Contact")}
       </h2>
       <ul className="mt-6">

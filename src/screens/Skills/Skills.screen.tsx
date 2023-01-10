@@ -5,7 +5,7 @@ const Skills: React.FC<{ id?: string }> = ({ id }) => {
   const { t } = useTranslation();
   return (
     <div id={id} className="py-4 pr-4">
-      <h2 className="text-custom-h2 inline border-b-[3px] border-custom-second">
+      <h2 className="text-lg font-bold md:text-2xl my-2 inline border-b-[3px] border-custom-second">
         {t("Skills")}
       </h2>
       <ul>
@@ -33,12 +33,16 @@ const Skills: React.FC<{ id?: string }> = ({ id }) => {
           <li>AWS(S3, Amplify, Route 53)</li>
         </ul>
       </ul>
-      <p className="text-sm italic text-custom-main/50 mt-6 mb-2">
+      <p className="text-xs md:text-sm italic text-custom-main/50 mt-6 mb-2">
         {t("skills1")}
       </p>
-      <ul className="text-sm italic">
-        <li className="text-custom-main/50">{t("skills2")}</li>
-        <li className="text-custom-main/50">{t("skills3")}</li>
+      <ul className="italic">
+        <li className="text-xs md:text-sm text-custom-main/50">
+          {t("skills2")}
+        </li>
+        <li className="text-xs md:text-sm text-custom-main/50">
+          {t("skills3")}
+        </li>
       </ul>
     </div>
   );
