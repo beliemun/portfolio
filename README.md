@@ -1,6 +1,6 @@
 # Porfolio
 
-Kim Jinhwan’s Portfolio
+Kim Jin-hwan’s Portfolio
 
 ## Sections:
 
