@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 Sitemap: https://www.kimxy.net/sitemap.xml
-User-agent: *
-Disallow:
+User-agent: * 
+Disallow: /
