@@ -1112,6 +1112,10 @@ li {
     margin-left: 12rem;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:h-32 {
     height: 8rem;
   }

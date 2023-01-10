@@ -32,15 +32,17 @@ const WorkExperience: React.FC<{ id?: string }> = ({ id }) => {
           <li>{t("work8")}</li>
           <li>{t("work9")}</li>
           <li>{t("work10")}</li>
-          <li>{t("work11")}</li>
-          <li className="list-none">
-            <div ref={ref} className="w-full h-96">
-              <LineChart size={size} />
-            </div>
-            <p className="text-sm text-custom-main/50 italic mb-4">
-              {t("work11A")}
-            </p>
-          </li>
+          <div className="hidden md:block">
+            <li>{t("work11")}</li>
+            <li className="list-none">
+              <div ref={ref} className="w-full h-96">
+                <LineChart size={size} />
+              </div>
+              <p className="text-sm text-custom-main/50 italic mb-4">
+                {t("work11A")}
+              </p>
+            </li>
+          </div>
         </ul>
         <li className="list-none font-bold md:text-lg mt-6">{t("work12")}</li>
         <ul>
