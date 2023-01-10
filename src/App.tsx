@@ -39,8 +39,8 @@ const App = () => {
         path="/"
         element={
           <div className="flex-center">
-            <div className="flex felx-row h-full w-full max-w-6xl">
-              <div className="fixed flex-center w-32 md:w-48 lg:w-60 p-2 lg:p-4">
+            <div className="flex flex-col md:flex-row h-full w-full max-w-6xl ">
+              <div className="flex flex-wrap md:flex-col justify-start md:justify-center items-center fixed w-full md:w-48 lg:w-60 p-2 lg:p-4 bg-white/50 backdrop-blur-sm border-b md:border-b-0 border-b-custom-main/10">
                 <Avatar onClick={handleClickAvatar} />
                 <MenuButton
                   text={t("Introduction")}
@@ -64,7 +64,7 @@ const App = () => {
                 />
                 <LanguageButton setLanguage={setLanguage} />
               </div>
-              <div className="flex flex-col w-full h-100 ml-32 md:ml-48 lg:ml-60 pt-2 lg:pt-4">
+              <div className="flex flex-col w-full h-100 md:ml-48 lg:ml-60 p-0 lg:p-4 pt-14 md:pt-4">
                 <Title />
                 <Separator className="my-4 hidden lg:block" />
                 <Introduction id="introduction" />

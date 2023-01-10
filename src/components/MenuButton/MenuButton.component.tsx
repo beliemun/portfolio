@@ -12,7 +12,7 @@ const MenuButton: React.FC<IMenuButtonProps> = ({ text, onClick }) => {
       onClick={onClick}
     >
       <p
-        className={`text-custom-main text-center hover:text-white m-0 px-4 py-1 text-xs md:text-sm lg:text-base`}
+        className={`text-custom-main text-center hover:text-white m-0 px-2 md:px-4 py-1 text-sm lg:text-base`}
       >
         {text}
       </p>

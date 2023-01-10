@@ -7,7 +7,7 @@ const WorkExperience: React.FC<{ id?: string }> = ({ id }) => {
   const { t } = useTranslation();
   const { size, ref } = useGetHTMLDivSize();
   return (
-    <div id={id} className="py-4 pr-2 md:pr-4">
+    <div id={id} className="p-2 md:p-4">
       <h2 className="text-lg font-bold md:text-2xl my-2 inline border-b-[3px] border-custom-second">
         {t("Work Experience")}
         {t("Project")}
@@ -32,10 +32,10 @@ const WorkExperience: React.FC<{ id?: string }> = ({ id }) => {
           <li>{t("work8")}</li>
           <li>{t("work9")}</li>
           <li>{t("work10")}</li>
-          <div className="hidden md:block">
+          <div className="hidden 2xs:block">
             <li>{t("work11")}</li>
             <li className="list-none">
-              <div ref={ref} className="w-full h-96">
+              <div ref={ref} className="w-full h-72 md:h-96">
                 <LineChart size={size} />
               </div>
               <p className="text-sm text-custom-main/50 italic mb-4">

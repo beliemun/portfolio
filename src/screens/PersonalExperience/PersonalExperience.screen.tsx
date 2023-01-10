@@ -8,7 +8,7 @@ const PersonalExperience: React.FC<{ id?: string }> = ({ id }) => {
     window.open(url, "_blank");
   };
   return (
-    <div id={id} className="py-4 pr-4">
+    <div id={id} className="p-2 md:p-4">
       <h2 className="text-lg font-bold md:text-2xl my-2 inline border-b-[3px] border-custom-second">
         {t("Personal Experience")}
         {t("Project")}
@@ -105,18 +105,18 @@ const PersonalExperience: React.FC<{ id?: string }> = ({ id }) => {
         </li>
         <ul>
           <li className="list-none p-4 border border-custom-main/10 rounded-lg mb-4">
-            <h3>{t("Design")}</h3>
+            <h3 className="text-base md:text-lg font-bold">{t("Design")}</h3>
             <ul>
               <li>{t("personal16")}</li>
               <img
-                className="w-full h-48 object-cover rounded-lg mb-2"
+                className="w-full h-32 md:h-48 object-cover rounded-lg mb-2"
                 src="https://burngrit-portfolio.s3.ap-northeast-2.amazonaws.com/images/mindmap.png"
                 alt="minmap"
               />
             </ul>
           </li>
           <li className="list-none p-4 border border-custom-main/10 rounded-lg mb-4">
-            <h3>{t("Art")}</h3>
+            <h3 className="text-base md:text-lg font-bold">{t("Art")}</h3>
             <ul>
               <li>{t("personal17")}</li>
               <li>{t("personal18")}</li>
@@ -140,7 +140,9 @@ const PersonalExperience: React.FC<{ id?: string }> = ({ id }) => {
             </ul>
           </li>
           <li className="list-none p-4 border border-custom-main/10 rounded-lg mb-4">
-            <h3>{t("Programming")}</h3>
+            <h3 className="text-base md:text-lg font-bold">
+              {t("Programming")}
+            </h3>
             <ul>
               <li className="list-none mt-4">{t("Backend")}</li>
               <ul>

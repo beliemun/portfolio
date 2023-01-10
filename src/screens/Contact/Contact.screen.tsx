@@ -7,7 +7,7 @@ const Contact: React.FC<{ id?: string }> = ({ id }) => {
     window.open(url, "_blank");
   };
   return (
-    <div id={id} className="py-4 pr-4">
+    <div id={id} className="p-2 md:p-4">
       <h2 className="text-lg font-bold md:text-2xl my-2 inline border-b-[3px] border-custom-second">
         {t("Contact")}
       </h2>

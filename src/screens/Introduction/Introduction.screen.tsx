@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const Introduction: React.FC<{ id?: string }> = ({ id }) => {
   const { t } = useTranslation();
   return (
-    <div id={id} className="py-4 pr-4">
+    <div id={id} className="p-2 md:p-4">
       <h2 className="text-lg font-bold md:text-2xl my-2 inline border-b-[3px] border-custom-second">
         {t("Introduction")}
       </h2>

@@ -4,12 +4,12 @@ import { useTranslation } from "react-i18next";
 const Skills: React.FC<{ id?: string }> = ({ id }) => {
   const { t } = useTranslation();
   return (
-    <div id={id} className="py-4 pr-4">
+    <div id={id} className="p-2 md:p-4">
       <h2 className="text-lg font-bold md:text-2xl my-2 inline border-b-[3px] border-custom-second">
         {t("Skills")}
       </h2>
       <ul>
-        <li className="list-none font-thin text-custom-main mt-6">
+        <li className="list-none font-bold text-custom-main mt-4 md:mt-6">
           {t("Backend")}
         </li>
         <ul>
@@ -17,7 +17,7 @@ const Skills: React.FC<{ id?: string }> = ({ id }) => {
           <li>ProgreSQL, GraphQL, Redis Pubsub</li>
           <li>Apollo Server, Prisma(Client, Migrate, Studio)</li>
         </ul>
-        <li className="list-none font-thin text-custom-main mt-6">
+        <li className="list-none font-bold text-custom-main mt-4 md:mt-6">
           {t("Frontend")}
         </li>
         <ul>
@@ -25,7 +25,7 @@ const Skills: React.FC<{ id?: string }> = ({ id }) => {
           <li>React JS(Web), React Native(App)</li>
           <li>Tailwind, Styled Components</li>
         </ul>
-        <li className="list-none font-thin text-custom-main mt-6">
+        <li className="list-none font-bold text-custom-main mt-4 md:mt-6">
           {t("Deploy")}
         </li>
         <ul>
