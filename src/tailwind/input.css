@@ -1,0 +1,81 @@
+@tailwind base;
+
+*:focus {
+  outline: none;
+}
+
+@tailwind components;
+
+* {
+  @apply text-custom-main;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  @apply leading-7 md:leading-8 ml-2 md:ml-4;
+}
+
+ul {
+  @apply list-disc ml-8;
+}
+
+li {
+  @apply mb-2;
+}
+
+.center-screen {
+  @apply h-screen flex justify-center items-center;
+}
+
+.flex-center {
+  @apply flex flex-col justify-center items-center;
+}
+
+.row-center {
+  @apply flex flex-row justify-center items-center;
+}
+
+.flex-start {
+  @apply flex justify-start items-center;
+}
+
+.flex-end {
+  @apply flex justify-end items-center;
+}
+
+.transition-300 {
+  @apply transition-all duration-300;
+}
+
+.transition-500 {
+  @apply transition-all duration-500;
+}
+
+.bg-gradient-r {
+  @apply bg-gradient-to-r from-custom-second to-custom-primary;
+}
+
+.bg-gradient-br {
+  @apply bg-gradient-to-br from-custom-second to-custom-primary;
+}
+
+.input {
+  @apply text-sm md:text-base px-3 md:px-4 py-2 md:py-3 rounded-lg ring-1 ring-custom-shadow placeholder:text-custom-shadow placeholder:text-xs md:placeholder:text-base focus:ring-custom-second focus:ring-2;
+}
+
+.text-custom-h1 {
+  @apply text-xl md:text-3xl font-bold my-3;
+}
+
+.text-custom-h2 {
+  @apply text-lg md:text-2xl my-2;
+}
+
+.max-w-2xs {
+  max-width: 16rem;
+}
+
+@tailwind utilities;
