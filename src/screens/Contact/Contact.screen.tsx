@@ -12,9 +12,9 @@ const Contact: React.FC<{ id?: string }> = ({ id }) => {
         {t("Contact")}
       </h2>
       <ul className="mt-6">
-        <li>+82-10-9037-4044</li>
-        <li>burngrit@icloud.com</li>
+        <li>Email: burngrit@icloud.com</li>
         <li onClick={() => handleClick("https://github.com/beliemun")}>
+          {"Github: "}
           <span className="text-custom-primary cursor-pointer underline">
             https://github.com/beliemun
           </span>

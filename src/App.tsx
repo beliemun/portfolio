@@ -50,10 +50,10 @@ const App = () => {
                   text={t("Skills")}
                   onClick={() => handleClickMenu("skills")}
                 />
-                {/* <MenuButton
+                <MenuButton
                   text={t("Contact")}
                   onClick={() => handleClickMenu("contact")}
-                /> */}
+                />
                 <MenuButton
                   text={t("Work Experience")}
                   onClick={() => handleClickMenu("work-experience")}
@@ -71,8 +71,8 @@ const App = () => {
                 <Separator className="my-1 md:my-4" />
                 <Skills id="skills" />
                 <Separator className="my-1 md:my-4" />
-                {/* <Contact id="contact" />
-                <Separator className="my-1 md:my-4" /> */}
+                <Contact id="contact" />
+                <Separator className="my-1 md:my-4" />
                 <WorkExperience id="work-experience" />
                 <Separator className="my-1 md:my-4" />
                 <PersonalExperience id="personal-experience" />
