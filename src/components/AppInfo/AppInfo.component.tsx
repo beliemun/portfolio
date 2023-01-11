@@ -15,7 +15,7 @@ const AppInfo: React.FC<IAppInfoProps> = ({
 }) => {
   return (
     <>
-      <li className="flex flex-row items-center my-4">
+      <li className="flex flex-row items-center my-2 md:my-4">
         <img
           className="w-12 h-12 object-contain rounded-2xl border border-custom-main/20"
           src={icon}

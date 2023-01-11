@@ -14,7 +14,7 @@ const PersonalExperience: React.FC<{ id?: string }> = ({ id }) => {
         {t("Project")}
       </h2>
       <ul>
-        <li className="list-none font-bold md:text-lg mt-8">
+        <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
           {t("personal1")}
         </li>
         <ul>
@@ -59,7 +59,7 @@ const PersonalExperience: React.FC<{ id?: string }> = ({ id }) => {
             </span>
           </li>
         </ul>
-        <li className="list-none font-bold md:text-lg mt-8">
+        <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
           {t("personal8")}
         </li>
         <ul>
@@ -100,7 +100,7 @@ const PersonalExperience: React.FC<{ id?: string }> = ({ id }) => {
             </span>
           </li>
         </ul>
-        <li className="list-none font-bold md:text-lg mt-8">
+        <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
           {t("personal15")}
         </li>
         <ul>
@@ -170,7 +170,7 @@ const PersonalExperience: React.FC<{ id?: string }> = ({ id }) => {
                   alt="prisma"
                 />
               </ul>
-              <li className="list-none mt-8">{t("Frontend")}</li>
+              <li className="list-none mt-6 md:mt-10">{t("Frontend")}</li>
               <ul>
                 <li className="p-4 bg-custom-primary/10 rounded-lg list-none mb-4">
                   <h3>{t("personal25")}</h3>
@@ -223,7 +223,7 @@ const PersonalExperience: React.FC<{ id?: string }> = ({ id }) => {
                   </ul>
                 </li>
               </ul>
-              <li className="list-none mt-8">{t("Deploy")}</li>
+              <li className="list-none mt-6 md:mt-10">{t("Deploy")}</li>
               <ul>
                 <li>Heroku(Backend, PostgreSQL)</li>
                 <li>AWS Amplify(Web, Admin)</li>

@@ -39,7 +39,7 @@ const App = () => {
         path="/"
         element={
           <div className="flex-center">
-            <div className="flex flex-col md:flex-row h-full w-full max-w-6xl ">
+            <div className="flex flex-col md:flex-row h-full w-full max-w-6xl">
               <div className="flex flex-wrap md:flex-col justify-start md:justify-center items-center fixed w-full md:w-48 lg:w-60 p-2 lg:p-4 bg-white/50 backdrop-blur-sm border-b md:border-b-0 border-b-custom-main/10">
                 <Avatar onClick={handleClickAvatar} />
                 <MenuButton
