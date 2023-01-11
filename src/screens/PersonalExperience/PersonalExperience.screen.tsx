@@ -15,6 +15,47 @@ const PersonalExperience: React.FC<{ id?: string }> = ({ id }) => {
       </h2>
       <ul>
         <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
+          {t("personal8")}
+        </li>
+        <ul>
+          <AppInfo
+            title={t("Kimxy")}
+            description={t("personal9")}
+            icon="https://burngrit-portfolio.s3.ap-northeast-2.amazonaws.com/images/appicon-kimxy.jpg"
+            screens="https://burngrit-portfolio.s3.ap-northeast-2.amazonaws.com/images/screenshot-kimxy.jpg"
+          />
+          <li className="list-none text-sm text-custom-primary mb-4">
+            {t("personal10")}
+          </li>
+          <li>
+            {t("personal11")}
+            <span className="font-bold underline">{t("personal12")}</span>
+            {t("personal13")}
+          </li>
+          <li>
+            {t("personal14")}
+            <span
+              className="text-custom-second font-bold cursor-pointer underline"
+              onClick={() =>
+                handleClick(
+                  "https://play.google.com/store/apps/details?id=com.burngrit.kimxy"
+                )
+              }
+            >
+              {t("Google Play")}
+            </span>
+            {", "}
+            <span
+              className="text-custom-second font-bold cursor-pointer underline"
+              onClick={() =>
+                handleClick("https://apps.apple.com/app/id1629547774")
+              }
+            >
+              {t("App Store")}
+            </span>
+          </li>
+        </ul>
+        <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
           {t("personal1")}
         </li>
         <ul>
@@ -59,47 +100,7 @@ const PersonalExperience: React.FC<{ id?: string }> = ({ id }) => {
             </span>
           </li>
         </ul>
-        <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
-          {t("personal8")}
-        </li>
-        <ul>
-          <AppInfo
-            title={t("Kimxy")}
-            description={t("personal9")}
-            icon="https://burngrit-portfolio.s3.ap-northeast-2.amazonaws.com/images/appicon-kimxy.jpg"
-            screens="https://burngrit-portfolio.s3.ap-northeast-2.amazonaws.com/images/screenshot-kimxy.jpg"
-          />
-          <li className="list-none text-sm text-custom-primary mb-4">
-            {t("personal10")}
-          </li>
-          <li>
-            {t("personal11")}
-            <span className="font-bold underline">{t("personal12")}</span>
-            {t("personal13")}
-          </li>
-          <li>
-            {t("personal14")}
-            <span
-              className="text-custom-second font-bold cursor-pointer underline"
-              onClick={() =>
-                handleClick(
-                  "https://play.google.com/store/apps/details?id=com.burngrit.kimxy"
-                )
-              }
-            >
-              {t("Google Play")}
-            </span>
-            {", "}
-            <span
-              className="text-custom-second font-bold cursor-pointer underline"
-              onClick={() =>
-                handleClick("https://apps.apple.com/app/id1629547774")
-              }
-            >
-              {t("App Store")}
-            </span>
-          </li>
-        </ul>
+
         <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
           {t("personal15")}
         </li>

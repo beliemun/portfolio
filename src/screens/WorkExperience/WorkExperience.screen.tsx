@@ -14,31 +14,25 @@ const WorkExperience: React.FC<{ id?: string }> = ({ id }) => {
       </h2>
       <ul>
         <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
-          {t("work1")}
-        </li>
-        <ul>
-          <li> {t("work2")}</li>
-          <li> {t("work3")}</li>
-        </ul>
-        <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
-          {t("work4")}
-        </li>
-        <ul>
-          <li>{t("work5")}</li>
-          <li> {t("work6")}</li>
-        </ul>
-
-        <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
-          {t("work7")}
+          {t("work19")}
         </li>
         <ul>
           <AppInfo
-            title={t("Interested In You")}
-            description={t("work8")}
-            icon="https://burngrit-portfolio.s3.ap-northeast-2.amazonaws.com/images/appicon-interest.png"
-            screens="https://burngrit-portfolio.s3.ap-northeast-2.amazonaws.com/images/screenshot-interest.png"
+            title={t("Korean Friends")}
+            description={t("work20")}
+            icon="https://burngrit-portfolio.s3.ap-northeast-2.amazonaws.com/images/appicon-kf.png"
+            screens="https://burngrit-portfolio.s3.ap-northeast-2.amazonaws.com/images/screenshot-kf.jpg"
           />
-          <li className="mt-4">{t("work9")}</li>
+          <li>{t("work21")}</li>
+        </ul>
+
+        <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
+          {t("work15")}
+        </li>
+        <ul>
+          <li>{t("work16")}</li>
+          <li>{t("work17")}</li>
+          <li>{t("work18")}</li>
         </ul>
 
         <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
@@ -53,6 +47,7 @@ const WorkExperience: React.FC<{ id?: string }> = ({ id }) => {
           />
           <li>{t("work11")}</li>
         </ul>
+
         <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
           {t("work12")}
         </li>
@@ -69,24 +64,32 @@ const WorkExperience: React.FC<{ id?: string }> = ({ id }) => {
         </ul>
 
         <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
-          {t("work15")}
-        </li>
-        <ul>
-          <li>{t("work16")}</li>
-          <li>{t("work17")}</li>
-          <li>{t("work18")}</li>
-        </ul>
-        <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
-          {t("work19")}
+          {t("work7")}
         </li>
         <ul>
           <AppInfo
-            title={t("Korean Friends")}
-            description={t("work20")}
-            icon="https://burngrit-portfolio.s3.ap-northeast-2.amazonaws.com/images/appicon-kf.png"
-            screens="https://burngrit-portfolio.s3.ap-northeast-2.amazonaws.com/images/screenshot-kf.jpg"
+            title={t("Interested In You")}
+            description={t("work8")}
+            icon="https://burngrit-portfolio.s3.ap-northeast-2.amazonaws.com/images/appicon-interest.png"
+            screens="https://burngrit-portfolio.s3.ap-northeast-2.amazonaws.com/images/screenshot-interest.png"
           />
-          <li>{t("work21")}</li>
+          <li className="mt-4">{t("work9")}</li>
+        </ul>
+
+        <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
+          {t("work4")}
+        </li>
+        <ul>
+          <li>{t("work5")}</li>
+          <li> {t("work6")}</li>
+        </ul>
+
+        <li className="list-none font-bold md:text-lg mt-6 md:mt-10">
+          {t("work1")}
+        </li>
+        <ul>
+          <li> {t("work2")}</li>
+          <li> {t("work3")}</li>
         </ul>
       </ul>
     </div>
