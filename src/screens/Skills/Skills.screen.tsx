@@ -14,7 +14,7 @@ const Skills: React.FC<{ id?: string }> = ({ id }) => {
         </li>
         <ul>
           <li>Node.js</li>
-          <li>ProgreSQL, GraphQL, Redis Pubsub</li>
+          <li>GraphQL(ProgreSQL), Redis Pubsub</li>
           <li>Apollo Server, Prisma(Client, Migrate, Studio)</li>
         </ul>
         <li className="list-none font-bold text-custom-main mt-4 md:mt-6">
@@ -22,7 +22,7 @@ const Skills: React.FC<{ id?: string }> = ({ id }) => {
         </li>
         <ul>
           <li>HTML5, CSS(SCSS), Java Script(ES6), Type Script</li>
-          <li>React JS(Web), React Native(App)</li>
+          <li>React.js, React Native</li>
           <li>Tailwind, Styled Components</li>
         </ul>
         <li className="list-none font-bold text-custom-main mt-4 md:mt-6">
