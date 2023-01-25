@@ -75,7 +75,7 @@
   "personal18": "컬러 시스템 정의",
   "personal19": "모바일 앱 디자인",
   "personal20": "웹(관리자용) 디자인",
-  "personal21": "DBMS는 ProgreSQL로 설정, 개발 시에는 Prisma Studio, Postico를 활용",
+  "personal21": "DBMS는 PostgreSQL로 설정, 개발 시에는 Prisma Studio, Postico를 활용",
   "personal22": "Backend에서 GraphQL을 활용을 위한 Apollo Server 사용",
   "personal23": "서비스 내 사용자간 채팅 콘텐츠 구현을 위해 Redis PubSub을 활용",
   "personal24": "Prisma를 이용한 스키마 모델 정의 및 마이그레이션",

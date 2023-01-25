@@ -226,7 +226,7 @@ const PersonalExperience: React.FC<{ id?: string }> = ({ id }) => {
               </ul>
               <li className="list-none mt-6 md:mt-10">{t("Deploy")}</li>
               <ul>
-                <li>Heroku(Backend, PostgreSQL)</li>
+                <li>Railway(PostgreSQL, Redis)</li>
                 <li>AWS Amplify(Web, Admin)</li>
                 <li>AWS Route 53(Domain)</li>
                 <li>AWS 3S(Data/Backup) </li>
