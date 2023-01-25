@@ -14,22 +14,22 @@ const Skills: React.FC<{ id?: string }> = ({ id }) => {
         </li>
         <ul>
           <li>Node.js</li>
-          <li>GraphQL(ProgreSQL), Redis Pubsub</li>
-          <li>Apollo Server, Prisma(Client, Migrate, Studio)</li>
+          <li>GraphQL, Apollo Server</li>
+          <li>Prisma(Client, Migrate, Studio)</li>
         </ul>
         <li className="list-none font-bold text-custom-main mt-4 md:mt-6">
           {t("Frontend")}
         </li>
         <ul>
           <li>HTML5, CSS(SCSS), Java Script(ES6), Type Script</li>
-          <li>React.js, React Native</li>
+          <li>React.js, React Native, Expo, Apollo Client</li>
           <li>Tailwind, Styled Components</li>
         </ul>
         <li className="list-none font-bold text-custom-main mt-4 md:mt-6">
           {t("Deploy")}
         </li>
         <ul>
-          <li>Heroku, Expo, GitHub</li>
+          <li>Heroku, Railway, GitHub</li>
           <li>AWS(S3, Amplify, Route 53)</li>
         </ul>
       </ul>
